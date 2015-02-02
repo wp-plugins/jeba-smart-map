@@ -11,7 +11,7 @@ Jeba Cute Map Plugin, super lightweight plugin for your wordpress website using 
 == Description ==
 
 This is Jeba smart google map wordpress plugin. Really the map looking awesome and easy to use. By using [jeba_gmap] shortcode use the slider every where post, page and template.
-
+Demo Link: http://prowpexpert.com/contact-us/
 
 Jeba more plugin: http://prowpexpert.com/jeba
 
@@ -34,6 +34,9 @@ Shortcodes
 
 <strong>Here can change</strong>
 <pre>[jeba_gmap location="", text="", zoom="", type="", width="", height=""]</pre>
+
+<strong>A test use</strong>
+<pre>[jeba_gmap text="Eta may oder gramer location<br/> Ar beshi kichu jana hoyni.<br/> <a href='mailto:prowpexperts@gmail.com'>Email</a>" location="Bajalia, Chittagong, Bangladesh"]</pre>
 
 == Frequently Asked Questions ==
 = How can use location? 
