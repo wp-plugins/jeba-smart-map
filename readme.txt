@@ -13,7 +13,7 @@ Jeba Smart Map Plugin, super lightweight plugin for your wordpress website using
 This is Jeba smart google map wordpress premium quality map plugin. Really the map looking awesome and easy to use. By using [jeba_gmap] shortcode use the map  every where post, page and template.
 Demo Link: http://prowpexpert.com/contact-us/
 
-Jeba more plugin: http://prowpexpert.com/jeba
+Jeba more plugin: https://wordpress.org/plugins/jeba
 
 == Installation ==
 
