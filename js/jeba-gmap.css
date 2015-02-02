@@ -1,0 +1,24 @@
+
+#map {
+	padding-bottom: 0px;
+}
+
+/* MAP MARKER MODULE */
+
+.map-box {
+	opacity: 0.8;
+	width: 250px;
+	color: #B8B9BC;
+	background: #2F3238;
+	border-radius: 5px;
+}
+
+.map-box .content {
+	padding:10px;
+}
+
+#map .banding {
+	background: url(img/banding.gif);
+	background-repeat: repeat-x;
+	padding-top: 5px;
+}		
