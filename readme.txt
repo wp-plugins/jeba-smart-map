@@ -1,16 +1,16 @@
 === Jeba Map Plugin ===
-Tags: map, Cute map, awesome map, google map, jeba gmap
+Tags: map, Smart map, awesome map, google map, jeba gmap, easy map plugin, premium map 
 Requires at least: 3.0.1
 Tested up to: 4.0.1
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Jeba Cute Map Plugin, super lightweight plugin for your wordpress website using map. 
+Jeba Smart Map Plugin, super lightweight plugin for your wordpress website using map like premium quality map plugin. 
 
 == Description ==
 
-This is Jeba smart google map wordpress plugin. Really the map looking awesome and easy to use. By using [jeba_gmap] shortcode use the slider every where post, page and template.
+This is Jeba smart google map wordpress premium quality map plugin. Really the map looking awesome and easy to use. By using [jeba_gmap] shortcode use the map  every where post, page and template.
 Demo Link: http://prowpexpert.com/contact-us/
 
 Jeba more plugin: http://prowpexpert.com/jeba
