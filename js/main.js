@@ -77,7 +77,7 @@ Prowpexpert.map = function (options){
 				map.setCenter(center);
 			});
 
-			var map_pin = "http://prowpexpert.com/map-marker.png";
+			var map_pin = "../img/map-marker.png";
 			var geocoder = new google.maps.Geocoder();
 			geocoder.geocode({
 				'address' : address

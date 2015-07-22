@@ -46,11 +46,11 @@ function jeba_shortcode_with_attributes( $atts, $content = null  ) {
  
     return '
 		
-	<section id="map">
+	<div id="map">
 		<div class="banding"></div>
 		<div id="map-container" data-text="'.$text.'" data-location="'.$location.'" data-zoom="'.$zoom.'" data-mapType="'.$type.'"></div>
 		<div class="banding"></div>
-	</section>
+	</div>
 
 <style>
 #map #map-container {
