@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Jeba Smart Map
-Plugin URI: http://prowpexpert.com/contact-us/
-Description: This is Jeba smart google map wordpress plugin. Really the map looking awesome and easy to use. By using [jeba_gmap] shortcode use the slider every where post, page and template.
+Plugin Name: Easy Smart Map
+Plugin URI: http://prowpexpert.com
+Description: This is Easy smart google map wordpress plugin. Really the map looking awesome and easy to use. By using [easygmap] shortcode use the map every where post, page and template.
 Author: Md Jahed
 Version: 1.0
 Author URI: http://prowpexpert.com/
@@ -40,8 +40,7 @@ function jeba_shortcode_with_attributes( $atts, $content = null  ) {
         'zoom' => '13',
         'type' => 'HYBRID',
         'width' => '100%',
-        'height' => '500px'
-		
+        'height' => '500px'		
     ), $atts ) );
  
     return '
@@ -58,11 +57,18 @@ function jeba_shortcode_with_attributes( $atts, $content = null  ) {
    height: '.$height.';
 }
 </style>
+	
 
     ';
 }   
 add_shortcode('jeba_gmap', 'jeba_shortcode_with_attributes');
 
-
-
+add_action ( 'wp_head', 'js_vars' ); 
+function js_vars(){ ?>
+		<script type="text/javascript">
+			var wp_plugin_dir = <?php echo json_encode (plugins_url()); ?>;
+			
+		</script> 
+	<?php 
+}
 ?>
